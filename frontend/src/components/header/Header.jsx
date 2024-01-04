@@ -49,7 +49,7 @@ function Header() {
           </button>
         </div>
       </div>
-      <div>
+      <div className="md:hidden">
         <MobileHeader
           isOpenMobileManu={isOpenMobileManu}
           setIsOpenMobileManu={setIsOpenMobileManu}

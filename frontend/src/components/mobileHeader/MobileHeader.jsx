@@ -6,7 +6,7 @@ import logo from "../../assets/logo.png";
 import { NavLink } from "react-router-dom";
 function MobileHeader({ isOpenMobileManu, setIsOpenMobileManu }) {
   return (
-    <div className=" flex justify-between items-center">
+    <div className="flex justify-between items-center">
       <div>
         <FaBars
           onClick={() => setIsOpenMobileManu(!isOpenMobileManu)}
