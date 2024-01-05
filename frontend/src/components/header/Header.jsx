@@ -7,7 +7,7 @@ function Header() {
   const [isOpenMobileManu, setIsOpenMobileManu] = useState(false);
 
   return (
-    <div className=" bg-white md:px-[50px] py-2 px-[10px]  shadow-md shadow-gray-300 sticky top-0">
+    <div className=" z-40 bg-white md:px-[50px] py-2 px-[10px]  shadow-md shadow-gray-300 sticky top-0">
       <div className="hidden md:flex justify-between items-center ">
         <NavLink to="/">
           <img className="w-[50px]" src={logo} alt="" />
